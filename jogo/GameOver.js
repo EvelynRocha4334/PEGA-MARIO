@@ -1,0 +1,3 @@
+function mostrarGameOver(){
+    background (imgGameOver);
+}
