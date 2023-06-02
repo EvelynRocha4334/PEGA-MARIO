@@ -9,9 +9,9 @@ var imgItens = [];
 var itens = [];
 var pontuação = 0;
 var imgAbertura;
-var controleTela = "INICIO ";
+var controleTela = "INICIO";
 var imgGameOver;
-var GameOver = "FINAL";
+var GameOver = "JOGO";
 var vidas  = 3;
 
      
@@ -59,7 +59,7 @@ if (controleTela == "INICIO"){
       mostraAbertura();
 }
 
-if (controleTela == "FINAL"){
+if (controleTela == "JOGO"){
       executarJogo();
 }
 if (vidas == 0){
